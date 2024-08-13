@@ -61,6 +61,12 @@ build CMakeFiles/Rollback_Netcode.dir/abstractClientFactory.cpp.o: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles/Rollback_Netcode.dir
   OBJECT_FILE_DIR = CMakeFiles/Rollback_Netcode.dir
 
+build CMakeFiles/Rollback_Netcode.dir/Packet.cpp.o: CXX_COMPILER__Rollback_Netcode_unscanned_Debug /Users/richarddurkee/CLionProjects/Rollback$ Netcode/Packet.cpp || cmake_object_order_depends_target_Rollback_Netcode
+  DEP_FILE = CMakeFiles/Rollback_Netcode.dir/Packet.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Rollback_Netcode.dir
+  OBJECT_FILE_DIR = CMakeFiles/Rollback_Netcode.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Rollback_Netcode
@@ -69,7 +75,7 @@ build CMakeFiles/Rollback_Netcode.dir/abstractClientFactory.cpp.o: CXX_COMPILER_
 #############################################
 # Link the executable Rollback_Netcode
 
-build Rollback_Netcode: CXX_EXECUTABLE_LINKER__Rollback_Netcode_Debug CMakeFiles/Rollback_Netcode.dir/main.cpp.o CMakeFiles/Rollback_Netcode.dir/abstractClientFactory.cpp.o
+build Rollback_Netcode: CXX_EXECUTABLE_LINKER__Rollback_Netcode_Debug CMakeFiles/Rollback_Netcode.dir/main.cpp.o CMakeFiles/Rollback_Netcode.dir/abstractClientFactory.cpp.o CMakeFiles/Rollback_Netcode.dir/Packet.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/Rollback_Netcode.dir
   POST_BUILD = :
