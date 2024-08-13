@@ -2,6 +2,7 @@
 // Created by Richard Durkee on 8/12/24.
 //
 
+
 #ifndef ABSTRACTCLIENTFACTORY_H
 #define ABSTRACTCLIENTFACTORY_H
 
@@ -12,7 +13,7 @@ public:
     abstractClientFactory() = default;
 
 private:
-    ip_addr = 0.0.0.0
+    addr ip_addr = 0.0.0.0;
 
 };
 
