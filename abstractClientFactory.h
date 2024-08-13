@@ -13,7 +13,6 @@ public:
     abstractClientFactory() = default;
 
 private:
-    addr ip_addr = 0.0.0.0;
 
 };
 
